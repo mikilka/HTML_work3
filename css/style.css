@@ -1,6 +1,6 @@
+@import url(fonts.css);
+
 body {
-    position: relative;
-    height: 960px;
     background-color: #f9f9f9;
 }
 
@@ -94,18 +94,24 @@ a {
     height: 39px;
     padding-left: 22px;
     border-bottom: solid 1px #c8c8c8;
-    color: #838383;
     font-family: 'Open Sans';
     font-size: 10pt;
     line-height: 39px;
     white-space: nowrap;
 }
 
+.sidebar a {
+    color: #656363;
+}
+
+.sidebar a:hover {
+    color: #2c2c2c;
+}
+
 .sidebar li:hover {
     width: 205px;
     padding-left: 35px;
     border-bottom: solid 1px #c8c8c8;
-    color: #2c2c2c;
 }
 
 /*Content*/
@@ -143,11 +149,9 @@ a {
 /*Footer*/
 
 footer {
-    position: absolute;
-    bottom: 70px;
-    left: 200px;
     width: 966px;
     height: 40px;
+    margin: 16px 0 0 46px;
     background-color: #e1e1e1;
 }
 
