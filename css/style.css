@@ -165,7 +165,7 @@ footer {
     display: inline-block;
     width: 106px;
     height: 40px;
-    margin-right: 45px;
+    margin-right: 20px;
     margin-left: 23px;
     font-family: 'Open Sans';
     font-size: 10pt;
@@ -182,11 +182,11 @@ footer {
 
 .links li:nth-child(2) {
     margin-right: 9px;
-    margin-left: -9px;
+    margin-left: 16px;
 }
 
 .links li:last-child {
-    margin-left: -24px;
+    margin-left: 1px;
 }
 
 .rights {
