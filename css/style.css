@@ -33,19 +33,19 @@ body {
 }
 
 .topmenu ul {
-    font-size: 0;
     margin-left: 3px;
+    font-size: 0;
 }
 
 .topmenu li {
     display: inline-block;
-    height: 40px;
     width: 100px;
+    height: 40px;
     margin-right: 34px;
-    text-align: center;
     font-family: 'Open Sans';
     font-size: 11pt;
     line-height: 40px;
+    text-align: center;
 }
 
 .topmenu li:nth-child(2) {
@@ -57,9 +57,9 @@ body {
 }
 
 .topmenu li:hover {
+    width: 98px;
     border-right: 1px solid #838383;
     border-left: 1px solid #838383;
-    width: 98px;
     background-color: #fff;
     background-image: -webkit-linear-gradient(bottom, #2e2e2e, #4a4a4a);
     background-image: -moz-linear-gradient(bottom, #2e2e2e, #4a4a4a);
@@ -139,11 +139,12 @@ a {
     margin-top: 34px;
     margin-left: 24px;
     padding-right: 7px;
+    padding-bottom: 42px;
     color: #2c2c2c;
     font-family: 'Open Sans';
-    font-size: 10pt;
+    font-size: 13px;
+    letter-spacing: .2px;
     line-height: 16pt;
-    letter-spacing: 1pt;
 }
 
 /*Footer*/
@@ -166,10 +167,13 @@ footer {
     height: 40px;
     margin-right: 45px;
     margin-left: 23px;
-    color: #2c2c2c;
     font-family: 'Open Sans';
     font-size: 10pt;
     line-height: 40px;
+}
+
+.links a {
+    color: #2c2c2c;
 }
 
 .links li:hover {
@@ -188,11 +192,12 @@ footer {
 .rights {
     display: inline-block;
     height: 40px;
-    margin-right: 25px;
+    margin-right: 26px;
     float: right;
     color: #2c2c2c;
     font-family: 'Open Sans';
-    font-size: 10pt;
+    font-size: 13px;
+    letter-spacing: -.1px;
     line-height: 40px;
     text-align: center;
 }
