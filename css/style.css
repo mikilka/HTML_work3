@@ -6,8 +6,8 @@ body {
 
 .container {
     width: 1060px;
-    height: 960px;
     margin-left: 154px;
+    padding-bottom: 60px;
     background-color: #fff;
     box-shadow: 0 5px 5px rgba(0, 0, 0, .3);
 }
@@ -71,7 +71,6 @@ a {
     margin: 45px;
     margin-top: 41px;
     float: left;
-    border: solid 1px #c8c8c8;
     background-color: #fff;
 }
 
@@ -80,11 +79,16 @@ a {
     width: 217px;
     height: 39px;
     padding-left: 22px;
-    border-bottom: solid 1px #c8c8c8;
+    border: solid 1px #c8c8c8;
+    border-top: none;
     font-family: 'Open Sans';
     font-size: 10pt;
     line-height: 39px;
     white-space: nowrap;
+}
+
+.sidebar li:first-child {
+    border-top: solid 1px #c8c8c8;
 }
 
 .sidebar a {
@@ -94,14 +98,11 @@ a {
 }
 
 .sidebar a:hover {
-    width: 204px;
+    padding-left: 35px;
     color: #2c2c2c;
 }
 
 .sidebar li:hover {
-    width: 204px;
-    padding-left: 35px;
-    border-bottom: solid 1px #c8c8c8;
     background-color: #f9f9f9;
 }
 
