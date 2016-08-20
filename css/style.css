@@ -80,7 +80,7 @@ a {
     height: 39px;
     padding-left: 22px;
     border: solid 1px #c8c8c8;
-    border-top: none;
+    border-top: 0;
     font-family: 'Open Sans';
     font-size: 10pt;
     line-height: 39px;
